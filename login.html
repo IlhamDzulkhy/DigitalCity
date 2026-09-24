@@ -13,7 +13,7 @@
     <main class="login-card">
         <h1>Login</h1>
         <p class="login-subtitle">Masuk untuk melanjutkan.</p>
-        <form action="index.html" method="get">
+        <form action="index.html" method="get" onsubmit="sessionStorage.setItem('isLoggedIn', 'true')">
             <div class="login-field">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" required>
